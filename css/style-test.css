@@ -1,0 +1,201 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*風格*/
+body {
+	font-size: 16px;
+	font-family: 微軟正黑體;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+/*排版-header*/
+.header {
+  background: white;
+  height: 64px;
+  border: solid red 5 px;
+}
+
+.logo {
+	float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.searchbar {
+  float: right 
+}     
+
+/*排版-大圖*/
+
+.big-pic img{
+    height: 620px;
+    width: 1280px;
+}
+/*不知道怎把字壓到圖上*/
+.big-pic span {
+  
+}
+
+
+/*排版-補助類型*/
+.category {
+  height: 550px;
+  background: black;
+} 
+
+.cate-box {
+  position: relative;
+  margin-top: -90px;
+  width: 952px;
+  height: 500px;
+}
+
+.cate {
+  background: white;
+  height: 230px;
+  width: 220px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cate:nth-child(4n) {
+	margin-right: 0px;
+}
+
+.cate img {
+    height: 50px;
+    width: 50px;
+}
+
+/*排版-新聞與熱門*/
+.news-hot {
+  height: 300px;
+  background: aqua;
+  padding: 60px;
+}
+
+.news-hot-box {
+
+  height: 300px;
+  width: 940px;  
+}
+
+.news {
+  height: 300px;
+  width: 460px;
+  background: white;
+  display: inline-block;
+  margin-right: 15px;/*為何20px會爆掉？？？*/
+}
+
+.hot {
+  display: inline-block;
+}
+
+.hot-content {
+  width: 460px;
+  position: relative;
+  text-align: center;
+  margin-bottom: -180px;
+}
+
+.hot img {
+  height: 300px;
+  width: 420px;  
+}
+
+.more {
+  margin-top: 20px;
+}
+
+
+.call1957 {
+  height: 420px;
+  background: white;
+  overflow: hidden;
+}
+
+.call1957 img {
+  height: 420px;
+  width: 1280px;   
+}
+
+.call-content {
+  position: relative;
+  float: right;
+  background: yellow;
+}
+
+.footer  {
+  color: white; 
+  height: 100px;
+  background: black;
+}
+
+
+
+
