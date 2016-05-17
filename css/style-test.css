@@ -73,11 +73,14 @@ a {
 }
 
 .logo {
+    margin-top: 20px;
 	float: left;
 }
 
 .menu {
+  margin-top: 20px;
   float: right;
+  font-size: 16px;
 }
 
 .menu li {
@@ -85,8 +88,17 @@ a {
 }
 
 .searchbar {
-  float: right 
+  float: right;
+  height: 30px;
+  width: 260px;
+  border: solid 1px #383838;
+  padding: 4px;    
 }     
+.searchbar img{
+  height: 20px;
+  width: 20px;  
+  float: right; 
+}
 
 /*排版-大圖*/
 
@@ -95,9 +107,9 @@ a {
     width: 1280px;
     margin:0px auto;
 }
-/*不知道怎把字壓到圖上*/
-.big-pic span {
-  
+/*不知道怎把字壓到圖上,怪怪的*/
+.big-pic words {
+  margin-top: -10px;
 }
 
 
