@@ -178,6 +178,41 @@ a {
   margin-right: 15px;/*為何20px會爆掉？？？*/
 }
 
+.news-content {
+  height: 300px;
+  width: 460px; 
+  padding-top: 20px; 
+  padding-left: 56px;  
+  overflow: hidden;    
+}
+
+.news-content h4{
+    font-size: 21px;
+    font-weight: bold;
+    color: #39dee2;
+    line-height: 200%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.news-list {
+    height: 60px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+.date{
+    font-size: 12px;
+    color: #7e7e7e;  
+}
+.more-info img{
+   height: 18px;
+   width: 21px; 
+   float: right;
+   margin-top: -40px;
+   margin-right: 50px;
+   overflow: hidden;
+}
+
+
 .hot {
   display: inline-block;
 }
