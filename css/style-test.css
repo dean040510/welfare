@@ -93,6 +93,7 @@ a {
 .big-pic img{
     height: 620px;
     width: 1280px;
+    margin:0px auto;
 }
 /*不知道怎把字壓到圖上*/
 .big-pic span {
@@ -107,6 +108,7 @@ a {
 } 
 
 .cate-box {
+  margin:0px auto;    
   position: relative;
   margin-top: -90px;
   width: 952px;
@@ -142,6 +144,7 @@ a {
 
 /*排版-新聞與熱門*/
 .news-hot {
+  margin:0px auto;    
   height: 420px;
   background: #39dee2;
   padding-top: 60px;
@@ -150,6 +153,7 @@ a {
 }
 
 .news-hot-box {
+  margin:0px auto;
   height: 300px;
   width: 940px;  
 }
@@ -171,6 +175,15 @@ a {
   position: relative;
   text-align: center;
   margin-bottom: -180px;
+  font-size: 16px;  
+  color: #ffffff;
+}
+
+.hot-content h2 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #39dee2;
+    line-height: 200%;
 }
 
 .hot img {
@@ -180,6 +193,9 @@ a {
 
 .more {
   margin-top: 20px;
+  height: 30px;
+  width: 140px;
+  font-size: 14px;
 }
 
 
