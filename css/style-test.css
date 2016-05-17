@@ -69,6 +69,7 @@ a {
   background: white;
   height: 64px;
   border: solid red 5 px;
+  box-shadow:10px 0px 3px rgba(20%,20%,40%,0.5);
 }
 
 .logo {
@@ -102,7 +103,7 @@ a {
 /*排版-補助類型*/
 .category {
   height: 550px;
-  background: black;
+  background: #34373a;
 } 
 
 .cate-box {
@@ -129,17 +130,26 @@ a {
 .cate img {
     height: 75px;
     width: 75px;
+    margin-top: 55px;
+    margin-right: 72.5px;
+    margin-left: 72.5px;
+}
+
+.cate a {
+    font-size: 16px; 
+    margin-top: 200px;
 }
 
 /*排版-新聞與熱門*/
 .news-hot {
-  height: 300px;
-  background: aqua;
-  padding: 60px;
+  height: 420px;
+  background: #39dee2;
+  padding-top: 60px;
+  padding-bottom: 60px; 
+  overflow: hidden;
 }
 
 .news-hot-box {
-
   height: 300px;
   width: 940px;  
 }
@@ -193,7 +203,7 @@ a {
 .footer  {
   color: white; 
   height: 100px;
-  background: black;
+  background: #34373a;
 }
 
 
