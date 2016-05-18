@@ -6,7 +6,7 @@ body {
 	color: #2a3237;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-   padding-top: 60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+   padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 
 }
 
@@ -170,6 +170,7 @@ nav.navbar {
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	background: black;
+	padding: 10px 80px;
 }
 
 nav.navbar .navbar-nav li.active a:not(.btn) {
@@ -179,7 +180,7 @@ nav.navbar .navbar-nav li.active a:not(.btn) {
 nav.navbar-fixed-top {
 	z-index: 9499;
 	top: 0;
-	padding: 10px 0;
+	padding: 10px 80px;
 	opacity: 50;
 	background: white;
 	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.05);
@@ -188,7 +189,11 @@ nav.navbar-fixed-top {
 nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	color: #bbb;
 }
-
+.navbar-form {
+  padding: 0;
+	margin-right: 40px;
+	margin-left: 28px;
+}
 .icon-bar {
 	background: #bbb;
 }
