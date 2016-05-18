@@ -1111,6 +1111,17 @@ footer .social-footer li:hover a {
 }
 
 
+/*～～～～～～修改區域～～～～～～*/
+
+.second-bar{
+  background:   aqua;
+  height: 40px;
+  width: auto;
+}
+.second-bar li{
+  font-size: 14 pt;   
+}
+
 
 
 

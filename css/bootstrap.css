@@ -6779,3 +6779,17 @@ button.close {
   padding-left:30px !important;
   position: relative;
 }
+
+/*高－修改部分*/
+.second-bar { 
+   background: #39dee2;
+   font-size: 14px;           /*改不了～～～～～*/
+}
+.sidebar {
+    width: 310px;
+    height: auto;
+    background: #383838;
+    color: white;
+    font-size: 16px;
+}
+

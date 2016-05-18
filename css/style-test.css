@@ -104,12 +104,16 @@ a {
 
 .big-pic img{
     height: 620px;
-    width: 1280px;
+    width: 1920px;
     margin:0px auto;
 }
-/*不知道怎把字壓到圖上,怪怪的*/
-.big-pic words {
-  margin-top: -10px;
+                                  /*不知道怎把字壓到圖上,怪怪的*/
+.big-pic {
+  margin-top: 0px;
+  font-size: 28px;  
+}
+.big-pic span{      
+   
 }
 
 
@@ -250,25 +254,44 @@ a {
 
 .call1957 {
   height: 420px;
+  width: 1920;    
   background: white;
   overflow: hidden;
 }
 
 .call1957 img {
   height: 420px;
-  width: 1280px;   
+  width: 1920px; 
+  margin-top: -120px;    
 }
 
 .call-content {
   position: relative;
   float: right;
-  background: yellow;
+  margin-top: 50px; 
+  margin-right: 200px;    
 }
+
+.call-content h3{
+    color: #34373a;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.question{
+    color: #7e7e7e;
+    font-size: 16px;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 40px;   
+}
+
 
 .footer  {
   color: white; 
   height: 100px;
   background: #34373a;
+  padding: 40px;    
 }
 
 
