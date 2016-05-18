@@ -15,20 +15,40 @@
 <body>
 	  
 <!--上方欄-->
-  <div class="header">
-    <div class="logo">
-      <img src="#" alt="">123
-    </div>
-    <div class="navi-bar">
-      <ul class="menu">
-        <li>最新消息</li>
-        <li>1957諮詢專線</li>
-        <li><div class="searchbar">
-        <img src="img/pic/search-32.png" alt="">
-      </div></li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/logo-active.png" alt=""></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">最新消息</a></li>
+					<li><a href="#">1957諮詢專線</a></li>
+          <li>
+         			<form class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-blue" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+              </form>              
+          </li> 
+                    
+				</ul>				
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
   
 <!--內容-->
   <div class="container">
@@ -144,16 +164,7 @@
        All rights reserved. Lorem ipsum dolor sit amet nullam.
     </div>
     
-  </div>
-
-  
-  
-  
-    
-    
-    
-    
-    
+  </div>   
 	<!-- Holder for mobile navigation -->
 	<div class="mobile-nav">
 		<ul>
