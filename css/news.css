@@ -6,7 +6,7 @@ body {
 	color: #2a3237;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-   padding-top: 120px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+   padding-top: 60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 
 }
 
@@ -195,9 +195,9 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 /* Buttons */
 
 .btn {
-	font-size: 18px;
+	font-size: 14px;
 	display: inline-block;
-	padding: 15px 30px;
+	padding: 3px 20px;
 	color: white;
 	border: 2px solid transparent;
 	border-radius: 2px;
@@ -232,7 +232,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 
 .btn.btn-white-fill {
 	color: #fff;
-	border-color: #fff;
+
 	background: transparent;
 }
 
@@ -266,15 +266,18 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 
 .navbar {
 	top: 0px;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .container {
 	position: relative;
 	z-index: 1;
+	margin: 0;
 }
 /* Sections */
-
+.news{
+	margin: 0 60px;
+}
 /* Footer */
 
 footer {
@@ -348,12 +351,12 @@ footer .social-footer li:hover a {
 /* Form Control */
 
 .form-control {
-	font-size: 18px;
+	font-size: 14px;
 	position: relative;
 	left: 0;
 	height: auto;
-	padding: 20px 30px;
-	border: 1px;
+	padding: 5px 5px;
+	border: 1px ;
 	border-radius: 0;
 	box-shadow: 0;
 }
