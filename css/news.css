@@ -1,5 +1,6 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 body {
-	
+	font-family: 'cwTeXHei', sans-serif;
 	margin: 0 auto;
 	margin-top: 60px;
 }

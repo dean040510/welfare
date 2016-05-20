@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@main-color: #39DEE2;
+
 body {
 	font-family: 'cwTeXHei', sans-serif;
 	margin: 0 auto;
@@ -8,8 +10,14 @@ body {
 
 /*navbar*/
 
+.icon-bar{
+    background: black;
+}
 .nav > li > a{
     color: dimgray;
+}
+.nav{
+    margin-bottom: 6.5px;
 }
 .navbar{
     width: 100%;
@@ -21,7 +29,7 @@ body {
 }
 
 .btn-blue{
-    background: #39DEE2;
+    background: @main-color;
 }
 
 .glyphicon-search:before{
@@ -30,3 +38,44 @@ body {
 .navbar-header{
     margin-top: 12px;
 }
+
+/*about*/
+
+.about-content{
+    h1{
+        font-size: 1.8vw;
+        line-height: 1.5em;
+        position: absolute;
+        top:27%;
+        left:30%;
+        display:inline-block;
+    }
+
+}
+.category{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.card-active{
+    display: table;
+    position: relative;
+    text-align: center;
+    top:-80px;
+    margin: 0;
+    height: 220px;
+    width: 220px;
+    background: @main-color;
+    font-size:1.1em;
+    color:white;
+}
+.card1{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.row{
+}
+
+
+
+
