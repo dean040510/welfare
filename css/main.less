@@ -1,13 +1,12 @@
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 @main-color: #39DEE2;
 
+
 body {
 	font-family: 'cwTeXHei', sans-serif;
 	margin: 0 auto;
 	margin-top: 60px;
 }
-
-
 /*navbar*/
 
 .icon-bar{
@@ -55,6 +54,7 @@ body {
 .category{
     padding-left: 20%;
     padding-right: 20%;
+    background: #373B3D;
 }
 .card-active{
     display: table;
@@ -66,15 +66,160 @@ body {
     width: 220px;
     background: @main-color;
     font-size:1.1em;
-    color:white;
+	color:white;
 }
-.card1{
+.card-inactive{
+    display: table;
+    position: relative;
+    text-align: center;
+    top:-80px;
+    margin: 0;
+    height: 220px;
+    width: 220px;
+    background: #ffffff;
+    font-size:1.1em;
+	color: black;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
     display: table-cell;
     vertical-align: middle;
+    div{
+        margin-top: 10px;
+    }
 }
 
-.row{
+.category2{
+    margin-top: 40px;
 }
+
+/* info */
+
+.info{
+	padding-left: 20%;
+    padding-right: 20%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+    background: @main-color;
+}
+
+.news{
+	height: 300px;
+	background: #ffffff;
+	padding: 25px;
+	padding-left: 50px;
+	padding-right: 35px;
+	h2{
+		color:@main-color;
+		font-weight: 600;
+		font-size: 1.8em;
+	}
+	img{
+		height: 20px;
+		width: 20px;
+		float:right;
+		margin-top: 30px;
+	}
+}
+
+.news1,.news2,.news3{
+	line-height: 0.8em;
+	margin-top: 20px;
+	font-size: 1.1em;
+	display: inline-block;
+	p{
+		color:#999999;
+		a{
+			font-weight: 500;
+			color: black;
+			&:hover{
+				color:@main-color;
+			}
+		}
+	}
+	
+}
+
+.hot{
+	height: 300px;
+	margin-left: 50px;
+	text-align: center;
+	img{
+		- webkit-filter: brightness(.6);
+	}
+	div{
+		position: relative;
+		top:-240px;
+		h2{
+			color: @main-color;
+			font-weight: 500;
+			font-size: 1.8em;
+		}
+		p{
+			a{
+				margin-top: 30px;
+				font-size: 1.3em;
+				color: #FFF;
+			}
+		}
+		button{
+			margin-top: 50px;
+			width: 150px;
+			height: 35px;
+			background-color: rgba(0,0,0,0);
+			border-width:1px;
+			border-color: white;
+			&:hover{
+				background-color: @main-color;
+				border:0;
+			}
+		}
+	}
+}
+	
+/* contact*/
+.contact{
+	height: 420px;
+	padding-left: 20%;
+    padding-right: 20%;
+
+	img{
+		height: 420px;
+	}
+
+}
+
+.contact-content{	
+	margin-top: 100px;
+	margin-left: 110px;
+	h2{
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	a{
+		color: #999;
+		font-size:1.3em;
+		&:hover{
+			color:@main-color;
+		}
+	}
+	button{
+		margin-top: 50px;
+		width: 150px;
+		height: 35px;
+		background-color: @main-color;
+		color:white;
+		border-width:0px;
+
+	}
+}
+	
+footer{
+	height: 100px;
+	background: #373B3D;
+}
+
+
+
 
 
 
