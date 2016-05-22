@@ -1,27 +1,37 @@
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@main-color: #39DEE2;
+
+
 body {
 	font-family: 'cwTeXHei', sans-serif;
 	margin: 0 auto;
 	margin-top: 60px;
 }
-
-
 /*navbar*/
 
+.icon-bar{
+    background: black;
+}
 .nav > li > a{
     color: dimgray;
+	&:hover{
+		color:@main-color;
+	}
+}
+.nav{
+    margin-bottom: 6.5px;
 }
 .navbar{
     width: 100%;
     margin: 0;
     padding: 0;
-	  background-color: #ffffff;
-	  box-shadow: 0px 1px 3px #999999;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px #999999;
 	
 }
 
 .btn-blue{
-    background: #39DEE2;
+    background: @main-color;
 }
 
 .glyphicon-search:before{
@@ -31,18 +41,20 @@ body {
     margin-top: 12px;
 }
 
-
 /*content*/
 h3{
 	font-weight:bold;
+	font-size: 2em;
 }
 h5{
 	line-height: 28px;
 	color: #555555;
+	font-size: 1.3em;
 }
 p{
 	color: #999999;
 	line-height: 28px;
+	font-size: 1.3em;
 }
 .header_img{
 	position: relative;
@@ -53,11 +65,15 @@ p{
 .news{
 	position: relative;
 	top: -220px;
-	margin: 0 80px;
+	margin: 0;
 	z-index: 1000;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .news_content{
 	margin-bottom: 20px;
+	height: 500px;
+
 }
 .page-header{
 	height: 100px;
@@ -76,10 +92,24 @@ p{
 }
 .others{
 	background-color: #34373A;
-	height: 536px;
+	height: 100px;
 	position: relative;
 	top: -600px;
 
 }
+
+.col-lg-12 , .col-sm-4 , .col-xs-6,.row{
+	margin: 0;
+	padding: 0;
+}
+
+
+.othernews{
+	background: white;
+	width: 400px;
+	height: 250px;
+}
+
+
 
 
