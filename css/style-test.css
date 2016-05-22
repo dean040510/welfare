@@ -1,0 +1,320 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*風格*/
+body {
+	font-size: 16px;
+	font-family: 微軟正黑體;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+/*排版-header*/
+.header {
+  background: white;
+  height: 64px;
+  border: solid red 5 px;
+  box-shadow:10px 0px 3px rgba(20%,20%,40%,0.5);
+}
+
+.logo {
+    margin-top: 20px;
+	float: left;
+}
+
+.menu {
+  margin-top: 20px;
+  float: right;
+  font-size: 16px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.searchbar {
+  float: right;
+  height: 30px;
+  width: 260px;
+  border: solid 1px #383838;
+  padding: 4px;    
+}     
+.searchbar img{
+  height: 20px;
+  width: 20px;  
+  float: right; 
+}
+
+/*排版-大圖*/
+
+.big-pic img{
+    height: 620px;
+    width: 1920px;
+    margin:0px auto;
+}
+                                  /*不知道怎把字壓到圖上,怪怪的*/
+.big-pic {
+  margin-top: 0px;
+  font-size: 28px;  
+}
+.big-pic span{      
+   
+}
+
+
+/*排版-補助類型*/
+.category {
+  height: 550px;
+  background: #34373a;
+} 
+
+.cate-box {
+  margin:0px auto;    
+  position: relative;
+  margin-top: -90px;
+  width: 952px;
+  height: 500px;
+}
+
+.cate {
+  background: white;
+  height: 230px;
+  width: 220px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cate:nth-child(4n) {
+	margin-right: 0px;
+}
+
+.cate img {
+    height: 75px;
+    width: 75px;
+    margin-top: 55px;
+    margin-right: 72.5px;
+    margin-left: 72.5px;
+}
+
+.cate a {
+    font-size: 16px; 
+    margin-top: 200px;
+}
+
+/*排版-新聞與熱門*/
+.news-hot {
+  margin:0px auto;    
+  height: 420px;
+  background: #39dee2;
+  padding-top: 60px;
+  padding-bottom: 60px; 
+  overflow: hidden;
+}
+
+.news-hot-box {
+  margin:0px auto;
+  height: 300px;
+  width: 940px;  
+}
+
+.news {
+  height: 300px;
+  width: 460px;
+  background: white;
+  display: inline-block;
+  margin-right: 15px;/*為何20px會爆掉？？？*/
+}
+
+.news-content {
+  height: 300px;
+  width: 460px; 
+  padding-top: 20px; 
+  padding-left: 56px;  
+  overflow: hidden;    
+}
+
+.news-content h4{
+    font-size: 21px;
+    font-weight: bold;
+    color: #39dee2;
+    line-height: 200%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.news-list {
+    height: 60px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+.date{
+    font-size: 12px;
+    color: #7e7e7e;  
+}
+.more-info img{
+   height: 18px;
+   width: 21px; 
+   float: right;
+   margin-top: -40px;
+   margin-right: 50px;
+   overflow: hidden;
+}
+
+
+.hot {
+  display: inline-block;
+}
+
+.hot-content {
+  width: 460px;
+  position: relative;
+  text-align: center;
+  margin-bottom: -210px;
+  font-size: 16px;  
+  color: #ffffff;
+}
+
+.hot-content h2 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #39dee2;
+    line-height: 200%;
+}
+
+.hot img {
+  height: 300px;
+  width: 460px;  
+}
+
+.more {
+  margin:0px auto;    
+  margin-top: 50px;
+  height: 30px;
+  width: 140px;
+  font-size: 14px;
+    
+}
+
+
+.call1957 {
+  height: 420px;
+  width: 1920;    
+  background: white;
+  overflow: hidden;
+}
+
+.call1957 img {
+  height: 420px;
+  width: 1920px; 
+  margin-top: -120px;    
+}
+
+.call-content {
+  position: relative;
+  float: right;
+  margin-top: 50px; 
+  margin-right: 200px;    
+}
+
+.call-content h3{
+    color: #34373a;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.question{
+    color: #7e7e7e;
+    font-size: 16px;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 40px;   
+}
+
+
+.footer  {
+  color: white; 
+  height: 100px;
+  background: #34373a;
+  padding: 40px;    
+}
+
+
+.nav > li > a{
+    color: black;
+}
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+}
+
+.btn-blue{
+    background: #00a8ff;
+}
+.navbar-header{
+    margin-top: 3px;
+}
+
+

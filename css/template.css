@@ -1,0 +1,21 @@
+.nav > li > a{
+    color: black;
+}
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+}
+
+.btn-blue{
+    background: #00a8ff;
+}
+.navbar-header{
+    margin-top: 3px;
+}
